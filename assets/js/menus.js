@@ -260,10 +260,10 @@ $(document).ready(function() {
         { "question" : "Where's your honeymoon?",
           "answer" : "Vail, Colorado for some wildflower hikes, hot springs, and summer night music!"
         },
-        { "question" : "What does she see in him?",
+        { "question" : "What does she love about him?",
           "answer" : "Carolyn is constantly amazed, inspired, and spoiled by Matt's patience, boundless generosity, devotion to his family, infinite wisdom for how to build things (including a cat tower), willingness to wash the dishes, ability to read a textbook without falling asleep, ability to teach Carolyn something while she's falling asleep, his dad jokes, and his thicccc luscious eyebrows."
         },
-        { "question" : "What does he see in her?",
+        { "question" : "What does he love about her?",
           "answer" : "Matt loves the way Carolyn's voice changes when she talks about food or dogs, the sly look she gives him when she wants to quit working and start watching a movie, her willingness to try new things with him (skiing and hiking, yay!), her supportiveness, generosity, and kindness towards others, the way she's been a big sister to his sisters, her terrible puns, and her boa constrictor hugs."
         },
         { "question" : "What do you two do for fun?",
