@@ -70,6 +70,7 @@ function initialize() {
     // Display multiple markers on a map
     var infoWindow = new google.maps.InfoWindow(), marker, i;
     var mapmarkers = [];
+    infoWindow.setOptions({maxWidth: 230});
     //infoWindow.setOptions({disableAutoPan: true});
 
     // Loop through our array of markers & place each one on the map  

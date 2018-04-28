@@ -262,6 +262,12 @@ hr {
     cursor: pointer;
 }
 
+.clickableimg:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+}
+
 .detailsheader {
     position: relative;
     font-size: 1.7em;
@@ -392,21 +398,158 @@ hr {
 }
 
 #bridesheader {
-    top: 17%;
-    right: 5.5%;
+    top: 13%;
+    right: 6.5%;
     font-size: 2.2em;
 }
 
 #bridesbody {
     position: absolute;
     font-size: 1.5em;
-    top: 25%;
-    right: 5.5%;
-    width: 24%;
-    height: 55%;
-    overflow-y: auto;
+    top: 19%;
+    right: 4.15%;
+    width: 28%;
+    height: 69%;
     z-index: 4;
     text-align: right;
+}
+
+#bridestext {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 63%;
+}
+
+.bmphoto {
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#bm_name {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#bm_title {
+    position: absolute;
+    font-style: italic;
+    top: 9.0%;
+    font-size: 0.8em;
+    width: 100%;
+    text-align: center;
+}
+
+#bm_content {
+    position: relative;
+    font-size: 0.9em;
+    top: 18%;
+    width: 100%;
+    height: 72%;
+    text-align: left;
+    overflow-y: auto;
+}
+
+#bm_footer {
+    position: absolute;
+    top: 93%;
+    height: 10%;
+    width: 100%;
+}
+
+#la_bm {
+    height: 100%;
+    left: 30%;
+}
+
+#ra_bm {
+    height: 100%;
+    right: 30%;
+}
+
+#groomsheader {
+    top: 83.5%;
+    left: 21.5%;
+    font-size: 2.2em;
+}
+
+#groomsbody {
+    position: absolute;
+    font-size: 1.5em;
+    top: 87%;
+    left: 24%;
+    width: 70%;
+    height: 17%;
+    overflow-y: auto;
+    z-index: 4;
+    text-align: left;
+}
+
+#groomstext {
+    position: absolute;
+    width: 70%;
+    left: 30%;
+    height: 100%;
+}
+
+.gmphoto {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+#gm_name {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#gm_title {
+    position: absolute;
+    font-style: italic;
+    top: 17%;
+    font-size: 0.8em;
+    width: 100%;
+    text-align: left;
+}
+
+#gm_content {
+    position: relative;
+    font-size: 0.9em;
+    left: 5%;
+    top: 30%;
+    width: 95%;
+    height: 60%;
+    text-align: left;
+    overflow-y: auto;
+}
+
+#gm_footer {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    height: 15%;
+    width: 25%;
+}
+
+#la_gm {
+    height: 100%;
+    left: 20%;
+}
+
+#ra_gm {
+    height: 100%;
+    right: 20%;
 }
 
 #carolyn {
@@ -416,7 +559,7 @@ hr {
 }
 
 #pine1 {
-    left: 55%;
+    left: 52%;
     top: 2%;
     width: 20%;
     z-index: 3;
@@ -424,7 +567,7 @@ hr {
 
 #flower2 {
     right: -3%;
-    top: -2%;
+    top: -6%;
     width: 20%;
     z-index: 3;
 }
@@ -432,7 +575,7 @@ hr {
 #taipei {
     transform: rotate(10deg);
     right: 5%;
-    top: 45%;
+    top: 65%;
     width: 15%;
     z-index: 3;
 }
@@ -443,23 +586,6 @@ hr {
     margin-bottom: 20%;
 }
 
-#groomsheader {
-    top: 83.5%;
-    left: 22%;
-    font-size: 2.2em;
-}
-
-#groomsbody {
-    position: absolute;
-    font-size: 1.5em;
-    top: 87%;
-    left: 26%;
-    width: 65%;
-    height: 15%;
-    overflow-y: auto;
-    z-index: 4;
-    text-align: left;
-}
 
 #star {
     top: 10%;
@@ -524,34 +650,68 @@ hr {
     transform: scaleX(-1);
     width: 17%;
     right: 0%;
-    top: 90%;
+    top: 98%;
     z-index: 3;
 }
 
 #todo {
 }
 
-#registry {
+#qanda {
     padding-top: 140%;
     box-sizing: border-box;
     margin-bottom: 20%;
 }
 
-#registryheader {
+#qandaheader {
     top: 53%;
     right: 12%;
     font-size: 2.5em;
 }
 
-#registrybody {
+#qandabody {
     position: absolute;
     font-size: 1.5em;
     top: 58%;
     right: 4%;
-    width: 22.5%;
-    height: 35%;
-    overflow-y: auto;
+    width: 25%;
+    height: 38%;
     z-index: 4;
+}
+
+#question{
+    position: absolute;
+    font-size: 1.0em;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+#answer {
+    position: absolute;
+    font-size: 0.8em;
+    top: 15%;
+    height: 75%;
+    width: 100%;
+    display: block;
+    overflow-y: auto;
+}
+
+#qa_footer {
+    position: absolute;
+    top: 93%;
+    height: 7%;
+    width: 100%;
+}
+
+#la_qa {
+    height: 100%;
+    left: 30%;
+}
+
+#ra_qa {
+    height: 100%;
+    right: 30%;
 }
 
 #flower1 {
@@ -598,9 +758,8 @@ hr {
 
 #frond11 {
     width: 30%;
-    transform: rotate(-25deg);
-    top: 90%;
-    right: 0%;
+    top: 95%;
+    right: 2.6%;
     z-index: 3;
 }
 
@@ -648,7 +807,7 @@ hr {
 }
 
 #bear {
-    right: 0%;
+    right: 3%;
     width: 18%;
     transform: rotate(20deg);
     top: 75%;
@@ -671,10 +830,10 @@ hr {
 #thanksbody {
     position: absolute;
     font-size: 1.5em;
-    top: 92%;
+    top: 91%;
     left: 32%;
     width: 57%;
-    height: 10%;
+    height: 14%;
     overflow-y: auto;
     z-index: 4;
 }
@@ -749,12 +908,12 @@ hr {
         font-size: 2.5vw;
     }
 
-    #registryheader {
+    #qandaheader {
         font-size: 3.8vw;
         right: 11.5%;
     }
 
-    #registrybody {
+    #qandabody {
         font-size: 2.5vw;
     }
 
