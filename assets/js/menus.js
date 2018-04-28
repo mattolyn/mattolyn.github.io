@@ -270,7 +270,7 @@ $(document).ready(function() {
           "answer" : "We love to cook and EAT, hike and (more recently) ski, do our taxes (JUST KIDDING), make random things (like a cat tower), and lounge around watching shows like The Office together. Occasionally we will find ourselves chatting about robots, but we would much rather talk about dogs. Oh, and wedding planning has been plenty fun as well :)."
         },
         { "question" : "What are you most excited for?",
-          "answer" : "We are incredibly excited to set up our own kitchen (we seriously spend the most time there), explore more of the world on conference money, raise a few adorable children, teach them everything we know and everything we don't know, laugh at each other's jokes before they're said, and to truly grow old together."
+          "answer" : "We are incredibly excited to set up our own kitchen (we seriously spend the most time there), go on hiking trips together, explore more of the world on conference money, maybe start a company together, raise a few adorable children, teach them everything we know and everything we don't know, laugh at each other's jokes before they're said, make terrible puns all the time, and grow really old together."
         },
     ];
 
